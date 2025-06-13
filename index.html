@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3D Personal Portfolio Website Using HTML CSS & JavaScript</title>
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- navbar section-->
+        <nav class="nav">
+            <ul class="nav-list">
+            <li class="active">
+                <i class='bx bx-home-alt'></i>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class='bx bx-user' ></i>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <i class='bx bx-detail' ></i>
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+                <i class='bx bx-briefcase' ></i>
+                <span class="tooltip">Projects</span>
+            </li>
+            <li>
+                <i class='bx bx-envelope' ></i>
+                <span class="tooltip">Contact</span>
+            </li>
+            </ul>
+        </nav>
+    
+        <div class="container">
+            <div class="box">
+        <!-- home section -->
+                <section class="section home active">
+                <div class="home-info">
+                    <h3>Hello I'm</h3>
+                    <h1>Shaik Ayesha</h1>
+                    <h3>Engineer</h3>
+                    <p class="desc">An aspiring engineer with a passion for technology, innovation, and continuous learning Explore my projects, skills, and 
+                        experiences as I work towards building impactful solutions and growing as a professional. Thanks for visiting!</p>
+                        <div class="btn-sci">
+                            <a href="CV.pdf" class="btn">Download CV</a>
+                            <div class="sci">
+                                <a href="https://github.com/">
+                                    <i class='bx bxl-github' ></i>
+                                    <span class="tooltip">Github</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/shaik-ayesha-7b6466331/">
+                                    <i class='bx bxl-linkedin' ></i>
+                                    <span class="tooltip">Linkedin</span>
+                                </a>
+                                <!--ref="#">
+                                    <i class='bx bxl-twitter' ></i>
+                                    <span class="tooltip">Twitter</span>
+                                </a>-->
+                                <a href="https://learn.microsoft.com/en-us/users/ayeshashaik-4652/">
+                                    <i class='bx bxl-microsoft' ></i>
+                                    <span class="tooltip">Microsoft Profile</span>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                    <div class="img-wrapper">
+                        <div class="img-box home-img">
+                            <img src="ayesha.jpg">
+                        </div>
+                    </div>
+                </section>
+        <!-- about section -->
+        <section class="section about">
+             <div class="img-wrapper">
+                        <div class="img-box about-img">
+                            <img src="ayesha.jpg">
+                        </div>
+            </div>
+
+            <div class="about-info">
+                <h2 class="title">About Me</h2>
+                <h3>Full-Stack Developer</h3>
+                <p class="desc">Hi! I'm a passionate and curious developer with a strong interest in full-stack development and machine learning. I enjoy building projects
+                     that solve real-world problems and showcase creative thinking. Currently, I'm exploring the intersection of web development and AI to create smart, user-friendly 
+                     applications. Whether it's designing intuitive interface or writing efficient backend logic, I love the process of turning ideas into reality. I'm
+                      always eager to learn, collaborate, and take on new challenges.</p>
+                <a href="viewmore.txt" class="btn">View More</a> <br><br>
+                <a href="AyeshaResume.pdf" class="btn">view Resume</a>           
+            </div>
+        </section>
+        <!-- resume section -->
+        <section class="section resume">
+            <h2 class="title">Resume</h2>
+            <div class="tab-box">
+                <div class="tab-list resume-list active">
+                    <h3>Certifications</h3>
+                </div>
+                <div class="tab-list resume-list">
+                    <h3>Skills</h3>
+                </div>
+            <!-- <div class="tab-list resume-list">
+                    <h3>Education</h3>
+                </div>-->
+            </div>
+            <div class="tab-wrapper">
+                <div class="tab-grid resume-box experience active">
+                   <div class="tab-item resume-item">
+                    <h4>Microsoft</h4>
+                    <a href="MicrosoftAI&MLCertificate.pdf" target="_blank">
+                    <img src="microsoft.png" alt="Microsoft Certificate" style="width:300px; height:200px;">
+                    </a>
+                    <p> An AICTE-certified online internship on Foundations of AI</p></div>
+                     <div class="tab-item resume-item">
+                    <h4>Guvi</h4>
+                    <a href="GuviCertificationAyesha.png" target="_blank">
+                    <img src="guvi.png" alt="Guvi Certificate" style="width:300px; height:200px;">
+                    </a>
+                    <p> Certified by Guvi on completion of Generative AI course</p></div>
+                     <div class="tab-item resume-item">
+                    <h4>L4G Google Cloud Skills Boost</h4>
+                    <a href="l4g.jpg" target="_blank">
+                    <img src="l4g.jpg" alt="Google Certificate" style="width:300px; height:200px;">
+                    </a>
+                    <p>  A 45 hour online course in Generative AI by Google Cloud</p></div>
+                     <div class="tab-item resume-item">
+                    <h4>Great Learning</h4>
+                    <a href="javaGLCertificate.pdf" target="_blank">
+                    <img src="Great_Learning.jpg" alt="Java Certificate" style="width:300px; height:150px;">
+                    </a>
+                    <p> Certified by Great Learning for completing the Java Programming course</p></div>
+                    <div class="tab-item resume-item">
+                    <h4>Guvi An HCL Group Company</h4>
+                    <a href="GuviCertificationAyesha.png" target="_blank">
+                    <img src="guvi_hcl.webp" alt="Java Certificate" style="width:300px; height:150px;">
+                    </a>
+                    <p> A Learnathon program on Fundamentals of AI by HCLTec</p></div>
+                    <div class="tab-item resume-item">
+                    <h4>Deloitte</h4>
+                    <a href="deloitte.png" target="_blank">
+                    <img src="deloitte.png" alt="Java Certificate" style="width: 300px; height: 150px;">
+                    </a>
+                    <p> Certified by Deloitte on completion of practical tasks on Data Analytics</p></div>
+                    <!--<h4>2025 - present</h4>
+                    <h4>Frontend Developer</h4>
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos sequi porro placeat iure explicabo facere ipsam. 
+                        Architecto similique, minima suscipit quisquam rem </p>
+                   </div>
+                   <div class="tab-item resume-item">
+                    <h4>2025 - present</h4>  
+                    <h4>Frontend Developer</h4> 
+                    <h4>Google</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos sequi porro placeat iure explicabo facere ipsam. 
+                        Architecto similique, minima suscipit quisquam rem </p>
+                   </div>
+                   <div class="tab-item resume-item"> h
+                    <h4>2024 - 2025</h4>
+                    <h4>Full Stack Developer</h4> 
+                    <h4>Github</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos sequi porro placeat iure explicabo facere ipsam. 
+                        Architecto similique, minima suscipit quisquam rem </p>
+                   </div>
+                   <div class="tab-item resume-item">
+                    <h4>2023 - 2024</h4>
+                    <h4>Backend Developer</h4>
+                    <h4>Youtube</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos sequi porro placeat iure explicabo facere ipsam. 
+                        Architecto similique, minima suscipit quisquam rem </p>
+                   </div>
+                   <div class="tab-item resume-item">
+                    <h4>2022 - 2023</h4>
+                    <h4>Frontend Developer Intern</h4>
+                    <h4>Amazon.com Inc.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos sequi porro placeat iure explicabo facere ipsam. 
+                        Architecto similique, minima suscipit quisquam rem </p>
+                   </div>
+                   <div class="tab-item resume-item">
+                    <h4>2021 - 2022</h4>
+                    <h4>UI/UX Designer</h4>
+                    <h4>Microsoft Corp.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Eos sequi porro placeat iure explicabo facere ipsam. 
+                        Architecto similique, minima suscipit quisquam rem </p>
+                   </div>-->
+                </div>
+
+                <div class="tab-grid resume-box skills">
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-html5'></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-css3' ></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-javascript' ></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-java' ></i>
+                        <p>Java</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-react' ></i>
+                        <p>React.js</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-python' ></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <i class='bx bxl-nodejs' ></i>
+                        <p>Node.js</p>
+                    </div>
+                </div>
+                <div class="tab-grid resume-box education">
+               <!--  <div class="tab-item resume-item">
+                       20</h4>
+                        <h4>programming Course</h4>
+                        <h4>Certified programming</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Nostrum, impedit provident fugiat reiciendis deserunt blanditiis 
+                             similique alias omnis consequuntur laborum in esse!</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <h4>2024</h4>
+                        <h4>programming Course</h4>
+                        <h4>Certified programming</h4>
+                        <p>education TEST</p>
+                    </div>
+                    <div class="tab-item resume-item">
+                        <h4>2024-2027</h4>
+                        <h4>programming Course</h4>
+                        <h4>Certified programming</h4>
+                        <p>education TEST</p>
+                    </div>
+                </div>-->
+
+            </div>
+        </section>
+
+        <!-- portfolio (work, service) section -->
+         <section class="section portfolio">
+         <h2 class="title">Projects</h2>
+         <div class="tab-box">
+            <div class="tab-list portfolio-list active">
+                <h3>My Work</h3>
+            </div>
+            <!--<div class="tab-list portfolio-list">
+                <h3>My Service</h3>
+            </div>-->
+         </div>
+         <div class="tab-wrapper">
+            <div class="tab-grid portfolio-box work active">
+                <div class="tab-item portfolio-item">
+                <div class="work-img">
+                    <img src="port.jpg">
+                </div>
+                <div class="work-info">
+                    <h4>FullStack Development project</h4>
+                    <p>The 3D Student Portfolio is an interactive web-based platform designed to showcase a student's academic profile, technical skills, and project work in an engaging 3D environment.</p>
+                    <div class="tech-used">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="portfolio-icon work-icon">
+                        <a href="https://github.com/AyeshaShaik6384/3D-personal_portfolio1/blob/main/README.md">
+                            <i class='bx bx-arrow-back'></i>
+                            <span class="tooltip">About</span>
+                        </a>
+                        <a href="https://github.com/AyeshaShaik6384/3D-personal_portfolio1">
+                            <i class='bx bxl-github'></i>
+                            <span class="tooltip">Github Repository</span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="tab-item portfolio-item">
+                <div class="work-img">
+                    <img src="crop.jpg">
+                </div>
+                <div class="work-info">
+                    <h4>Crop Recommendation System Project</h4>
+                    <p>to recommend the most suitable crop for cultivation based on soil and environmental conditions.</p>
+                    <div class="tech-used">
+                        <p>Machine Learning</p>
+                    </div>
+                    <div class="portfolio-icon work-icon">
+                        <a href="https://github.com/AyeshaShaik6384/Crop-Recommendation-System/tree/main">
+                            <i class='bx bx-arrow-back'></i>
+                            <span class="tooltip">Preview</span>
+                        </a>
+                        <a href="https://github.com/AyeshaShaik6384/Crop-Recommendation-System">
+                            <i class='bx bxl-github'></i>
+                            <span class="tooltip">Github Repository</span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <div class="tab-item portfolio-item">
+                <div class="work-img">
+                    <img src="rock.png">
+                </div>
+                <div class="work-info">
+                    <h4>Simple Rock, Paper & Sicsorrs Game</h4>
+                    <p>A simple Rock,Paper & Sicsorrs game of the classic hand game played between two players, one player is the user and the other is the computer.</p>
+                    <div class="tech-used">
+                        <p>Python</p>
+                    </div>
+                    <div class="portfolio-icon work-icon">
+                        <a href="https://github.com/AyeshaShaik6384/rock-paper-scissors/blob/main/README.md">
+                            <i class='bx bx-arrow-back'></i>
+                            <span class="tooltip">Preview</span>
+                        </a>
+                        <a href="https://github.com/AyeshaShaik6384/rock-paper-scissors/blob/main/RockPaperSiccors-4.py">
+                            <i class='bx bxl-github'></i>
+                            <span class="tooltip">Github Repository</span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+             <!--<div class="tab-grid portfolio-box service">
+                <div class="tab-item portfolio-item">
+                    <div class="portfolio-icon service-icon">
+                        <i class='bx bx-code-alt'></i>
+                        <a href="#"><i class='bx bx-left-arrow-alt'></i></a>
+                    </div>
+                    <h4>Web Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            <div class="tab-item portfolio-item">
+                    <div class="portfolio-icon service-icon">
+                        <i class='bx bxs-paint'></i>
+                        <a href="#"><i class='bx bx-left-arrow-alt'></i></a>
+                    </div>
+                    <h4>UI/UX Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>-->
+         </section>
+        <!-- contact section -->
+         <section class="section contact">
+            <h2 class="title">Contact</h2>
+            <div class="contact-wrapper">
+                <form action="" class="contact-form">
+                    <h3>Let's Work Together!</h3>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="contact-btn">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+         </section>
+
+         </div>
+    </div>
+        <!-- Javascript file script -->
+        <script src="script.js"></script>
+    </body>
+
+</html>
