@@ -1,1 +1,2 @@
 # 3D_Portfolio
+This interactive 3D portfolio showcases a modern web design using HTML, CSS, and JavaScript. It features a visually engaging layout with smooth animations, 3D transitions, and responsive sections such as About Me, Projects, Skills, and Contact. The use of CSS transforms and JavaScript effects brings a dynamic, immersive experience that highlights the developer's creativity and front-end development skills.
